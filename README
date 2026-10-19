@@ -1,0 +1,40 @@
+# AutoCAD 2D Mechanical Drafting – Bevel Gear (Z=38)
+
+A comprehensive 2D CAD technical drawing project for a differential conical gear wheel ($Z=38$ teeth) manufactured from surface-treated carbon steel (OLC 45/50). Developed as part of mechanical engineering coursework at UTCN.
+
+---
+
+## Technical Description
+
+- **Component Name:** Differential Conical Bevel Gear ($Z=38$)[cite: 1]
+- **Application:** Angle grinder gearbox transmitting rotational motion at $90^\circ$ to the working axis[cite: 1].
+- **Kinematics:** Meshes with a $Z=13$ pinion gear, forming a speed-reduction / torque-amplification bevel pair[cite: 1].
+- **Material:** OLC 45/50 Carbon Steel, surface heat-treated for wear resistance[cite: 1].
+- **Mounting Options:** Keyway, spline, retaining pin, or floating bearing/bushing[cite: 1].
+
+---
+
+## Drafting & Projection Details
+
+- **Projections:** Top-down view (concentric gear geometry & keyway contours) and cross-sectional side view (tooth profiles & height dimensions)[cite: 1].
+- **Standardization:** Drawn at **1:1 Scale** inside a standard **A4Y title block** with surface finish symbolization and geometric tolerances ($\pm0.05\text{ mm}$)[cite: 1].
+
+---
+
+##  AutoCAD Commands & Workflow
+
+| Command | Purpose |
+|---|---|
+| `LINE` / `PLINE` | Constructing geometric axes, contours, and section profiles[cite: 1] |
+| `CIRCLE` / `ARC` | Defining pitch circles, root diameters, and rounded keyway slots[cite: 1] |
+| `ARRAY` / `ARRAYEDIT` | Polar replication of the 38 gear teeth around the central axis[cite: 1] |
+| `DIMLIN` / `DIMANG` | Linear and angular dimensioning of gear teeth and shaft diameters[cite: 1] |
+| `TRIM` / `STRETCH` | Cleaning up intersecting geometries and adjusting projection lines[cite: 1] |
+| `LINETYPE` / `LINEWEIGHT` | Setting standardized stroke styles (centerlines, hidden lines, visible contours)[cite: 1] |
+
+---
+
+##  How to View
+
+1. **AutoCAD File:** Open `dwg/gearwheel_project.dwg` in Autodesk AutoCAD 2023+[cite: 1].
+2. **Printable Layout:** Check `pdf/gearwheel_drawing.pdf` for the vectorized A4 engineering layout[cite: 1].
